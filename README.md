@@ -23,7 +23,7 @@ You will need the following software installed:
 
 Getting MageVagrant up and running is as easy cloning the repo 
 
-````git clone https://github.com/amacgregor/MageVagrant.git magevagrant````
+````git clone git@github.com:xpeppers/MageVagrant.git magevagrant````
 
 And running the Vagrant box
 
@@ -34,4 +34,23 @@ vagrant up
 
 This will setup a full LAMP development environment and checkout,configure and enable a 
 default Magento 1.7 ready to be installed 
+
+## Accounts ##
+
+### Magento ###
+
+* Backoffice: http://192.168.10.99/admin
+* Admin: admin/admin12
+
+* Store: http://192.168.10.99/index.php
+* buying user: user@example.com / xxxx
+
+### Mysql ###
+* mysql -uroot -pmagedev2013$
+* database: magedev
+
+### Directories ###
+
+magento root is ``/srv/www/magento.localhost.com/``
+
 
