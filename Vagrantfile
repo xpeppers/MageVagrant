@@ -4,8 +4,8 @@
 Vagrant::Config.run do |config|
   # Set box configuration
   # config.vm.box = "lucid32"
-  config.vm.box = "magento_box"  
-  config.vm.box_url = "http://files.vagrantup.com/lucid32.box"
+  config.vm.box = "magento_box"
+  config.vm.box_url = "https://www.dropbox.com/s/z0039py67c6ycpa/package.box"
 
   # Assign this VM to a host-only network IP, allowing you to access it via the IP.
   config.vm.network :hostonly, "192.168.10.99"
